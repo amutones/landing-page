@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    padding: 0 48px;;
+    padding: 0 64px;
     display:flex;
     background-color: #1F2937;
     justify-content:space-between;
@@ -29,4 +29,40 @@ body {
 .header-links a {
     text-decoration: none;
     color:#E5E7EB;
+}
+
+.intro {
+    background-color: #1F2937;
+    padding: 64px;
+    display:flex;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.intro h1{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+    margin:0;
+}
+
+.intro p {
+    margin:0;
+    padding:8px 0;
+}
+
+.intro button {
+    border-style: none;
+}
+.intro img {
+    height:auto;
+    flex-grow:1;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color:#F9FAF8;
+    flex-shrink:0;
+    padding:8px 16px;
 }
