@@ -1,11 +1,32 @@
 body {
     margin:0;
-    padding-left:48px;
-    padding-right:48px;
     display:flex;
     flex-direction: column;
 }
 
 .header {
+    padding: 0 48px;;
     display:flex;
+    background-color: #1F2937;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.header-links {
+    display:flex;
+    padding-inline-start: 0;
+    gap: 8px;
+    list-style-type: none;
+    font-size: 18px;
+    
+}
+
+.header-links a {
+    text-decoration: none;
+    color:#E5E7EB;
 }
