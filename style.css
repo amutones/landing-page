@@ -71,26 +71,30 @@ body {
     justify-content:center;
     text-align: center;
     list-style-type: none;
+    gap:12px;
+    padding-inline-start: 0px;
+    padding:0 64px;
 }
 
 .random-info-box {
     display:flex;
     flex-direction: column;
+    align-items:center;
 }
 
 .random-info-box img {
-    /* min-height: 50px;
-    min-width: 50px; */
-    flex:auto;
+    min-height: 50px;
+    /* min-width: 50px; */ 
     border-radius: 5px;
     border-style: inset;
     border-color: #3882F6;
+    display: block;
 }
 
 
 button {
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
     color:#F9FAF8;
     flex-shrink:0;
     padding:8px 16px;
