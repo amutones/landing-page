@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    padding: 0 64px;
+    padding: 0 108px;
     display:flex;
     background-color: #1F2937;
     justify-content:space-between;
@@ -35,7 +35,7 @@ body {
 
 .intro {
     background-color: #1F2937;
-    padding: 64px;
+    padding: 108px;
     display:flex;
     font-size: 18px;
     color:#E5E7EB;
@@ -75,7 +75,7 @@ body {
     list-style-type: none;
     gap:12px;
     padding-inline-start: 0px;
-    padding:0 64px;
+    padding:0 140px;
 }
 
 .random-info-box {
@@ -98,7 +98,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding:64px;
+    padding:140px;
 }
 
 #quote-text {
@@ -116,7 +116,7 @@ body {
 }
 
 .subscribe {
-    padding: 32px 64px;
+    padding: 32px 108px;
 }
 
 .subscribe-box {
